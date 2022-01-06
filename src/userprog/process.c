@@ -105,7 +105,7 @@ process_exit (void)
   uint32_t *pd;
   
   tid_t process_code = cur->tid;
-
+  
   printf("%s: exit code(%d)\n", cur->name, process_code);
   
   /* Destroy the current process's page directory and switch back
